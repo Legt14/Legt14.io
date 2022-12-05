@@ -1,0 +1,126 @@
+:root {
+    --Yellow: #ffa31a;
+    --Black: #1b1b1b;
+    --Gray: #292929;
+    --LightGray: #808080;
+    --White: #ffffff;
+    --padding: 1.1rem
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Odia', monospace;
+}
+
+body {
+    background-color: var(--Gray);
+    color: var(--White);
+}
+
+.navbar{
+    padding: var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navbar > ul {
+    list-style: none;
+}
+
+.navbar > ul > li {
+    display: inline;
+    margin-left: 3px;
+}
+
+.navbar__logo{
+    position: absolute;
+    left: 3.1rem;
+    top: 0.9rem;
+
+}
+
+.navbar .navbar__logo > a > .navbar__log--img {
+    filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    width: 2rem;
+}
+
+.navbar .navbar__logo > a > .navbar__log--img:hover{
+    filter: invert(48%) sepia(79%) saturate(1000%) hue-rotate(10deg) brightness(100%) contrast(100%)
+}
+
+a {
+    color: var(--Yellow);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container__profile{
+    padding: var(--padding);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center ;
+}
+
+.container__profile--resume{
+    margin-right: 0.7rem;
+    width: 27rem;
+}
+
+.container__profile--resume > article > h1::first-letter{
+    color: var(--Yellow);
+}
+
+
+.container__profile > .profile__img > img{
+    width: 18rem;
+    border: solid 2px var(--Yellow);
+    border-radius: 20rem;
+}
+
+
+.container__profile--techs{
+    padding-top: 2rem;
+}
+
+
+.container__profile--techs ul{
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    list-style: none;
+}
+
+.container__profile--techs li{
+    display: inline;
+    padding-top: 0.2rem;
+}
+
+.container__profile--techs img{
+    filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    width: 2rem;
+}
+
+.container__profile--techs img:hover{
+    filter: invert(48%) sepia(79%) saturate(1000%) hue-rotate(10deg) brightness(100%) contrast(100%);
+    width: 2rem;
+}
+
+
+.container__footer {
+    padding: var(--padding);
+    height: 3rem;
+}
+
+.container__footer > a > img{
+    filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    width: 2rem;
+}
+
+.container__footer > a > img:hover{
+    filter: invert(48%) sepia(79%) saturate(1000%) hue-rotate(10deg) brightness(100%) contrast(100%)
+}
