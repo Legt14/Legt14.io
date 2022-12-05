@@ -1,0 +1,20 @@
+{
+  "name": "legt14.io",
+  "version": "1.0.0",
+  "description": "My landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legt14/Legt14.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legt14/Legt14.io/issues"
+  },
+  "homepage": "https://github.com/Legt14/Legt14.io#readme"
+}

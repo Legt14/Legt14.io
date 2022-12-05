@@ -51,12 +51,15 @@ body {
 }
 
 a {
+    font-family: 'Press Start 2P';
+    font-size: 0.7rem;
     color: var(--Yellow);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: var(--White);
 }
 
 .container__profile{
@@ -76,9 +79,15 @@ a:hover {
     color: var(--Yellow);
 }
 
+.container__profile--resume > article > h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    color: var(--Yellow);
+}
 
 .container__profile > .profile__img > img{
-    width: 18rem;
+    width: 15rem;
+
     border: solid 2px var(--Yellow);
     border-radius: 20rem;
 }
@@ -88,6 +97,10 @@ a:hover {
     padding-top: 2rem;
 }
 
+.container__profile--techs > h3{
+    font-size: 0.8rem;
+    font-family: 'Press Start 2P';
+}
 
 .container__profile--techs ul{
     padding-left: 1rem;
@@ -102,23 +115,54 @@ a:hover {
 
 .container__profile--techs img{
     filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
-    width: 2rem;
+    width: 1.5rem;
 }
 
 .container__profile--techs img:hover{
     filter: invert(48%) sepia(79%) saturate(1000%) hue-rotate(10deg) brightness(100%) contrast(100%);
-    width: 2rem;
 }
 
 
+.container__last_content{
+    padding-top: 4.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.container__last_content > div{
+    margin: 0.8rem;
+    background-color: var(--Black);
+    text-align: center;
+    /* border: var(--Yellow) solid 2px; */
+    border-radius: 1.3rem;
+}
+
+.container__last_content > div >img{
+    border-radius: 1.3rem;
+    width: 15rem;
+    height: 8.5rem;
+}
+
+.container__last_content > div:hover{
+    color: var(--Yellow);
+}
+
 .container__footer {
-    padding: var(--padding);
+    display: flex;
     height: 3rem;
+    margin: 0 3rem 0 3rem;
+    justify-content: end;
+}
+
+.container__footer > a{
+    margin: 0.5rem;
 }
 
 .container__footer > a > img{
     filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
-    width: 2rem;
+    width: 1.5rem;
 }
 
 .container__footer > a > img:hover{
