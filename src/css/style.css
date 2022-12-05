@@ -75,14 +75,16 @@ a:hover {
     width: 27rem;
 }
 
-.container__profile--resume > article > h1::first-letter{
-    color: var(--Yellow);
+.container__profile--resume > article > p{
+    margin-top: 0.8rem;
 }
 
 .container__profile--resume > article > h2{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 17px;
+    margin: 0.3rem 0  0 1rem;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
     color: var(--Yellow);
+    text-decoration: underline;
 }
 
 .container__profile > .profile__img > img{
@@ -152,12 +154,12 @@ a:hover {
 .container__footer {
     display: flex;
     height: 3rem;
-    margin: 0 3rem 0 3rem;
+    margin: 0 4.1rem 0 3rem;
     justify-content: end;
 }
 
 .container__footer > a{
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 
 .container__footer > a > img{
